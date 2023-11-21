@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif !important;
+}
+.navbar{
+    background-color: white !important;
+}
+
+.hero{
+    background-image: url(../images/banner-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+   margin-top: 70px;
+height: 90vh;
+}
+.hero-btn{
+    text-align: center;
+    color:  #820cdb;
+    background-color: #ffffff;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 0px;
+    border-radius: 1px;
+    font-weight: bold;
+}
+.hero-btn:hover{
+    color: #ffffff;
+    background-color: #820cdb;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+.details{
+  background-color: #f0f0f0;
+}
+.step{
+
+  max-height: 300px;
+    min-height:fit-content;
+  /* height: 270px; */
+    text-align: center;
+    background-color: #ffffff8a;
+    backdrop-filter: blur( 5.5px );
+box-shadow: 2px 2px 10px rgba(134, 126, 126, 0.247);
+
+}
+.card-title{
+  font-weight: bold;
+}
+.nav-link{
+  color: black;
+  font-weight: bold;
+}
+.nav-link:hover{
+
+  color: #820cdb;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+    .step{
+        height: fit-content;
+    }
+}
+
+.con h1 {
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 60px;
+    font-weight: 600;
+    position: relative;
+  }
+  
+  .con h1::after {
+    content: '';
+    background: #820cdb;
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .ro {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+  }
+  
+  .serv {
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+    transition: transform 0.5s, background 0.5s;
+  }
+  
+  .serv i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #820cdb;
+  }
+  
+  .serv h2 {
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .serv:hover {
+    background:#820cdb;
+    color: #fff;
+    transform: scale(1.02);
+  }
+  
+  .serv:hover i {
+    color: #fff;
+  }
+  
+  .igneezebtn{
+    color: white;
+    background-color: #820cdb;
+    border: 0;
+  }
+  .igneezebtn:hover{
+    background-color:#4b0580;
+    color: #ffffff;
+  }
+
+  lord-icon{
+    color: #820cdb;
+  }
